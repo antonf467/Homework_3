@@ -6,7 +6,7 @@
 Console.Write("Введите число : ");
 string namberText =Console.ReadLine();
 if (namberText.Length <5 ||namberText.Length >5 );
-else if (namberText[0]==namberText[4]&& namberText[1]==namberText[3])
+else if (namberText[0]==namberText[4] && namberText[1]==namberText[3])
 {
     Console.Write("Введите число -палиндром");
 
